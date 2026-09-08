@@ -1,8 +1,8 @@
-# 🪐 Manjot's Dotfiles
+# Dotfiles
 
 Personal configurations and user overrides for **Arch Linux** running **Hyprland** with **Caelestia Shell**.
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 ~/.dotfiles/
@@ -22,7 +22,7 @@ Personal configurations and user overrides for **Arch Linux** running **Hyprland
 └── wallpapers/              # High-resolution desktop wallpapers
 ```
 
-## 🚀 Fresh Installation / Restore on a New Machine
+## Fresh Installation / Restore on a New Machine
 
 1. **Clone the repository:**
    ```bash
@@ -45,7 +45,7 @@ Personal configurations and user overrides for **Arch Linux** running **Hyprland
    - Re-applies the Spicetify theme for Spotify.
    - Sets `fish` as your default interactive shell.
 
-## 🔄 Daily Usage & Tracking Changes
+## Daily Usage & Tracking Changes
 
 Because all active configuration folders in `~/.config` are live **symbolic links** to this repository:
 - Any change you make in `~/.config/caelestia/`, `~/.config/kitty/`, or `~/Pictures/Wallpapers/` is instantly reflected here.
@@ -58,5 +58,5 @@ Because all active configuration folders in `~/.config` are live **symbolic link
   git push
   ```
 
-## 🔒 Handling Secrets
+## Handling Secrets
 Do not add API keys or tokens to tracked files. Place machine-specific private variables into `~/.bashrc.local` (which is ignored by Git and automatically sourced by `~/.bashrc`).
